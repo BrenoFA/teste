@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+    <h1>Formulário de Cadastro</h1>
+    <form>
+        <fieldset>
+            <legend>Dados Principais</legend>
+            <input type="text" name="nome" size="50" required placeholder="Nome"><br><br>
+            <input type="email" name="email" size="50" required placeholder="E-mail"><br><br>
+            <input type="tel" name="telefone" size="50" required placeholder="(99) 99999-9999"><br><br>
+            <input type="date" name="dtnasc" required>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Disciplina Predileta</legend>
+            <label for="d1">Programação Web</label>
+            <input type="radio" value="pw" name="disc" id="d1">
+            &nbsp; &nbsp; &nbsp;
+            <label for="d2">Banco de Dados</label>
+            <input type="radio" value="bd" name="disc" id="d2">
+            &nbsp; &nbsp; &nbsp;
+        </fieldset><br>
+        <fieldset>
+            <h3>Fruta Favorita</h3>
+        <input id="laranja" type="checkbox" name="laranja" value="laranja">
+        <label for="laranja">laranja</label>
+        &nbsp; &nbsp; &nbsp;
+        <input id="banana" type="checkbox" name="banana" value="banana">
+        <label for="banana">Banana</label>
+        &nbsp; &nbsp; &nbsp;
+        <input id="maca" type="checkbox" name="maca" value="maca">
+        <label for="maca">Maçã</label>
+        <hr>
+        <label for="estado">Estado Natal</label><br>
+        <select name="estado">
+            <option value="RO" selected>Rondônia</option>
+            <option value="SP" selected>São Paulo</option>
+            <option value="MG" selected>Minas Gerais</option>
+            <option value="ES" selected>Espírito Santo</option>
+        </select>
+        <hr>
+        <label for="coment">Comentários</label><br>
+        <textarea name="coment" id="coment" cols="50" rows="20"></textarea>
+        </fieldset>
+    </form>
+</body>
+</html>

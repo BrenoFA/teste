@@ -1,0 +1,13 @@
+#especificacoes{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 35px;
+}
+#especificacoes2{
+    margin-right: -10px;
+    min-width: 100px;
+}
+#listagem{
+    padding-left: 155px;
+}
